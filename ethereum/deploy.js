@@ -1,7 +1,6 @@
 const hdWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
-// const compiledCampaign = require('./build/Campaign.json');
 
 const provider = new hdWalletProvider(
   'cage library whip mask impact dial agree nose obvious slight quantum arrange',
